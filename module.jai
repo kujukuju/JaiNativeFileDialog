@@ -28,4 +28,4 @@ NFD_PathSet_Free :: (pathSet: *NFDPathSet) #foreign nfd;
 
 #scope_file
 
-nfd :: #foreign_library "win/nativefiledialog";
+nfd :: #library "win/nativefiledialog";
